@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Boton } from './../components/Boton'
 import { BoxLogo } from './../components/BoxLogo'
 
-import logo from './../assets/logo.png'
+import logo from './../assets/img/logo.png'
 
 export const LogoCarousel = () => { 
     const [activated, setActivated] = useState(0)

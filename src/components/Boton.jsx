@@ -1,4 +1,4 @@
-import './../css/boton.css'
+import './../assets/css/boton.css'
 
 export const Boton = ({ children, setActivated, activated, instruccion }) => { 
     return ( 

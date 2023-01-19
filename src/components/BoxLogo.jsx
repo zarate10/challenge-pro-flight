@@ -1,4 +1,4 @@
-import './../css/boxlogo.css'
+import './../assets/css/boxlogo.css'
 
 export const BoxLogo = ({ srcImg, id, actived }) => { 
     return ( 
