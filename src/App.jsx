@@ -10,10 +10,9 @@ export const App = () => {
 
     const [activate, setActivate] = useState(0)
 
-    // Se podrían pushear o modificar las imágenes según el índice, sin la necesidad
-    // de cambiar el algoritmo del sistema y seguiría funcionando correctamente.
+    // Se podrían pushear, modificar o eliminar las imágenes según el índice, 
+    // y seguiría funcionando correctamente sin la necesidad de cambiar el algoritmo del sistema.
     const images = [logo, logo, logo, logo] 
-
     
     if (activate === images.length) { 
         setActivate(0)
