@@ -1,0 +1,16 @@
+.box-logo { 
+    width: 110px;
+    height: 110px;
+    background: linear-gradient(233.16deg, #00B0CE -10.31%, rgba(0, 176, 206, 0.3) 110.31%);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.65;
+}
+.box-logo > img {
+    width: 70%;
+}
+.box-logo .activate { 
+    opacity: 1;
+}
